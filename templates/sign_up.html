@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | IIT INDORE</title>
+    <meta class="description" content="It is the official website of IIT Indore where students and teachers of the institute can register to 
+    see the cousrse details and couse structure of B.Tech program .">
+    <meta class="robots" content="index,follow">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="icon" href="/static/img/update-logo.png">
+    <link rel="stylesheet" href="/static/sign_up.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .name i,.e-mail i,.phone i,.password i {
+            font-size: 2rem;
+            position: absolute;
+            top: 1rem;
+            left: 1.5rem;
+            color: #47ad33;
+            }
+        .name,.e-mail,.phone, .password{
+            position: relative;
+            width: 65%;
+            margin-left: auto;
+            margin-right: auto;
+            }
+    </style>
+</head>
+<body>
+    <div class="main-head">
+        <div class="h1"><img src="/static/img/update-logo.png" alt=""></div>
+        <div class=""><h1>IIT INDORE</h1></div>
+    </div>
+    <section class="login">
+        <div class="main">
+            <div class="main-1">
+                <h1>Have an account ?</h1>
+                <h2>To get the access to the website, <br> please sign in with your <br> personal info.</h2>
+                <button onclick="window.location.href='/'">Sign In</button>
+            </div>
+            <div class="main-2">
+                <h1><u>Register Here</u></h1>
+                <form action="" method="POST">
+                    <div class="name">
+                        <i class="fa fa-user icon"></i>
+                        <input type="text" name="name" id="name" placeholder="User Name" required>
+                    </div>
+                    <div class="e-mail">
+                        <i class="fa fa-envelope icon"></i>
+                        <input type="email" name="email" id="email" placeholder="UserId" required>
+                    </div>
+                    <div class="password">
+                        <i class="fa fa-key icon"></i>
+                        <input type="password" name="password" minlength="8" id="password" placeholder="Password" required>
+                    </div>
+                    <div class="phone">
+                        <i class="fa fa-phone icon"></i>
+                        <input type="tel" maxlength="15" name="phone" id="phone" placeholder="Mobile Number" required>
+                    </div>
+                    <button><strong>Sign Up</strong></button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

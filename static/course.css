@@ -1,0 +1,131 @@
+/* Global text */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+a {
+  font-size: 2.7rem;
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/* Header section */
+
+.main-head {
+  background-color: #131c13;
+}
+
+nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  min-height: 10vh;
+}
+
+.main-1 {
+  min-width: 25%;
+  min-height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-2 {
+  min-width: 25%;
+  min-height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.null {
+  min-width: 40%;
+}
+
+.main-3 {
+  min-width: 10%;
+  min-height: 8vh;
+  display: flex;
+  align-items: center;
+}
+
+.home:hover,
+.courses:hover,
+.logout:hover {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  background-color: rgb(48, 55, 148);
+  z-index: 1;
+}
+
+/* Main-Section */
+
+.middle {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+th {
+  min-width: 15rem;
+  height: 5rem;
+  font-size: 2.5rem;
+  background-color: seagreen;
+}
+
+td {
+  font-size: 2rem;
+  height: 3rem;
+}
+
+tr:nth-child(odd) {
+  background-color: silver;
+}
+
+.change-1 {
+  border-top-left-radius: 2rem;
+}
+
+.change-2 {
+  border-top-right-radius: 2rem;
+}

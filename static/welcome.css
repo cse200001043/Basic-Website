@@ -1,0 +1,121 @@
+/* Global text */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+a {
+  font-size: 2.7rem;
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+body {
+  background-image: url("/static/img/cYUZRWYcx5eTvEEJUEIN.jpg");
+  background-position: centre;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+/* Header section */
+
+.main-head {
+  background-color: #131c13;
+}
+
+nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  min-height: 10vh;
+}
+
+.main-1 {
+  min-width: 25%;
+  min-height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-2 {
+  min-width: 25%;
+  min-height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.null {
+  min-width: 40%;
+}
+
+.main-3 {
+  min-width: 10%;
+  min-height: 8vh;
+  display: flex;
+  align-items: center;
+}
+
+.home:hover,
+.courses:hover,
+.logout:hover {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  background-color: rgb(48, 55, 148);
+  z-index: 1;
+}
+
+/* Main-Section */
+
+.middle {
+  min-height: 90vh;
+  display: flex;
+}
+
+.main h1 {
+  font-size: 8rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.main {
+  text-align: center;
+  min-width: 80rem;
+  min-height: 40rem;
+  color: midnightblue;
+  text-shadow: 10px 10px 10px;
+  margin: auto;
+}
+
+.main img {
+  height: 20rem;
+  width: 20rem;
+}
